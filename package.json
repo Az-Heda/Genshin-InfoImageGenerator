@@ -1,0 +1,30 @@
+{
+    "author": "Az-Heda",
+    "bugs": {
+        "url": "https://github.com/Az-Heda/Genshin-InfoImageGenerator/issues"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cheerio": "^1.0.0-rc.12",
+        "colors": "^1.4.0",
+        "fs": "^0.0.1-security",
+        "fs-extra": "^11.1.1",
+        "path": "^0.12.7"
+    },
+    "description": "",
+    "homepage": "https://github.com/Az-Heda/Genshin-InfoImageGenerator#readme",
+    "keywords": [],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "genshininfographs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Az-Heda/Genshin-InfoImageGenerator.git"
+    },
+    "scripts": {
+        "scraper": "node scraper/main.js",
+        "sort": "node private/packager-sorter.js",
+        "watch-scraper": "nodemon --ext js scraper/main.js"
+    },
+    "version": "1.0.0"
+}
