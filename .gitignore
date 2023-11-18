@@ -1,6 +1,11 @@
 # Folders
 node_modules/
+_*/
+tmp/
+temp/
 
 # File
 _*.*
 package-lock.json
+tmp-*.*/
+temp-*.*/
